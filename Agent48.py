@@ -45,7 +45,7 @@ if __name__ == '__main__':
                MB_ICONWARNING)
 
     # Opening song window
-    webbrowser.open("https://www.youtube.com/watch?v=S4nz-PcVY8A")
+    webbrowser.open("https://www.youtube.com/watch?v=A3yCcXgbKrE")
 
     # Add batch file to Start-up
     user = os.getlogin()
