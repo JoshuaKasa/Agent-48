@@ -1,10 +1,10 @@
-# **Description**
+# **🐘 Description**
 Agent 48 is a simple Malware written in Python that overwrites your MBR (Master Boot Record).</br>
 
 It is very effective, since the user will have no time to try and kill the task.</br>
 In fact if the task is killed the computer will shut down and the MBR will be overwritten
 
-# **How it works**
+# **🦨 How it works**
 THIS IS FOR EDUCATIONAL PURPOSES ONLY, this is NOT a joke, don't prank your friends with this, don't try it yourself.
 
 Agent 48 uses the win32 modules for getting access to the main windows functions and files.</br>
@@ -15,3 +15,5 @@ This at least gives the user a short amount of time for saving all of his import
 
 When the 3 minutes timer runs out, the PC will be shutdown and when turned on again it will display a missing disc error. In simple words, this happens because the MBR bytes have been overwriten with the Python code.</br>
 The error is not custom, but that can be done pretty easily by getting every byte inside the MBR and overwriting the one you want with some words.
+
+If the user will manage to escape the MBR overwriting, a shutdown file will be inserted inside the start up windows file, so that whenever the user turns on the PC and get access the Desktop, the PC will be shutdown again.
